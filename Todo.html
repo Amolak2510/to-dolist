@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./StylingTodo.css">
+</head>
+
+<body>
+
+
+
+    <div id="container">
+        <div id="ToDo">
+            <h1 style="color:purple;">To do list</h1>
+
+            <div id="input-container">
+                <input type="text" id="Add-task" placeholder="Add new Task">
+
+                <div id="input-icon">
+                    <input type="button" onclick="addTodo()" id="Add" value="Add Task">
+                </div>
+            </div>
+
+            <div id="output-container" align="center">
+                <!--We will add to it onClick property from js-->
+                <!-- <div class="task">
+                    <input type="button" value="X" id="del-task">
+                    <input type="button" value="↑" id="upshift">
+                    <input type="button" value="↓" id="downshift">
+                    <input type="text" id="added-task" disabled value='blah'>
+                </div> -->
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="./functioning.js"></script>
+</body>
+
+
+</html>

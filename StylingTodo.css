@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(80deg, #ffb4b4, #ffd0cf, #ffedec);
+    /* font-family: Poppins, sans-serif; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#container {
+    text-align: center;
+    color: white;
+    width: 800px;
+    height: 700px;
+    padding-left: 350px;
+    padding-top: 50px;
+}
+
+input {
+    outline: none;
+}
+
+#input-container input {
+    height: 40px;
+}
+
+#input-container input[type="text"] {
+    height: 40px;
+    width: 250px;
+}
+
+#ToDo {
+    line-height: 35px;
+}
+
+.task {
+    background-color: rgba(31, 216, 179, 0.801);
+    outline: none;
+    margin-top: 20px;
+}
+
+#input-icon {
+    display: inline;
+}
+
+.task input {
+    /* width: 10px; */
+    height: 2rem;
+}
+
+.task>input[type="text"] {
+    width: 14.3rem;
+}
+
+#output-container {
+    width: 20rem;
+    /* margin-left: 15rem; */
+    margin: 2rem 2rem 2rem 15rem;
+    /*  style="width:20rem; padding:0; margin:2rem; " */
+}
